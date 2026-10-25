@@ -173,8 +173,9 @@ const FormInputTKD = ({ hideAccessCheck = false }) => {
   )
 }
 
-const Input = ({ name, value, onChange, placeholder, type = 'text' }) => (
+const Input = ({ id, name, value, onChange, placeholder, type = 'text' }) => (
   <input
+    id={id}
     name={name}
     value={value}
     onChange={onChange}
